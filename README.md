@@ -1,3 +1,3 @@
-# SKALPNet
+# SkAD-CN
 
-Skeleton-Based Anomaly Detection and Link Prediction in Citation Networks
+Skeleton-Based Anomaly Detection in Citation Networks
