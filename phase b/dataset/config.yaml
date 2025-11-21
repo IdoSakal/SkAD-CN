@@ -1,5 +1,5 @@
 # Key
-graph_type: BA # BA, WS, Drosophila, Social, Web, Airport, PowerGrid , citation
+graph_type: citation # BA, WS, Drosophila, Social, Web, Airport, PowerGrid , citation
 model: DiskNet
 graph_path: data/citation/clean_edges.csv # Citation network
 dynamics: CitationNetwork # HindmarshRose, FitzHughNagumo, CoupledRossler
@@ -12,7 +12,7 @@ log_root: logs/
 data_root: data/citation
 
 # NetworkSimulator
-node_num: 4262
+node_num: 7005
 layout: random
 edge_num: 3 # BA
 ring_lattice_k: 5 # WS
@@ -45,12 +45,12 @@ DiskNet:
   prior_init: True
 
 # Dataset
-lookback: 2
+lookback: 1
 horizon: 1
-train_ratio: 0.6
-val_ratio: 0.2
-test_ratio: 0.2
-batch_size: 4
+train_ratio: 0.8
+val_ratio: 0.1
+test_ratio: 0.1
+batch_size: 1
 
 
 # HindmarshRose
