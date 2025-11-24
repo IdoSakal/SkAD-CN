@@ -12,7 +12,7 @@ log_root: logs/
 data_root: data/citation
 
 # NetworkSimulator
-node_num: 7005
+node_num: 3539
 layout: random
 edge_num: 3 # BA
 ring_lattice_k: 5 # WS
@@ -102,5 +102,5 @@ CoupledRossler:
   # Citation Network
 CitationNetwork:
   dim: 4
-  total_t: 11
+  total_t: 21
   dt: 1.0
