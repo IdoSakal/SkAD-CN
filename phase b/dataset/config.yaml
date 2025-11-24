@@ -46,11 +46,11 @@ DiskNet:
 
 # Dataset
 lookback: 2
-horizon: 3
+horizon: 1
 train_ratio: 0.8
 val_ratio: 0.1
 test_ratio: 0.1
-batch_size: 1
+batch_size: 4
 
 
 # HindmarshRose
