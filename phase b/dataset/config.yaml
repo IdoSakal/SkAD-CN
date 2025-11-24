@@ -12,7 +12,7 @@ log_root: logs/
 data_root: data/citation
 
 # NetworkSimulator
-node_num: 3539
+node_num: 4094
 layout: random
 edge_num: 3 # BA
 ring_lattice_k: 5 # WS
@@ -45,8 +45,8 @@ DiskNet:
   prior_init: True
 
 # Dataset
-lookback: 1
-horizon: 1
+lookback: 2
+horizon: 3
 train_ratio: 0.8
 val_ratio: 0.1
 test_ratio: 0.1
