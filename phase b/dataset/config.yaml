@@ -45,12 +45,12 @@ DiskNet:
   prior_init: True
 
 # Dataset
-lookback: 2
-horizon: 1
-train_ratio: 0.8
-val_ratio: 0.1
-test_ratio: 0.1
-batch_size: 4
+lookback: 3
+horizon: 3
+train_ratio: 0.6
+val_ratio: 0.15
+test_ratio: 0.25
+batch_size: 2
 
 
 # HindmarshRose
