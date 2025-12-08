@@ -45,7 +45,7 @@ DiskNet:
   prior_init: True
 
 # Dataset
-lookback: 0
+lookback: 1
 horizon: 1
 train_ratio: 0.6
 val_ratio: 0.2
