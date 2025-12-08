@@ -1,5 +1,5 @@
 # Key
-graph_type: BA # BA, WS, Drosophila, Social, Web, Airport, PowerGrid , citation
+graph_type: citation # BA, WS, Drosophila, Social, Web, Airport, PowerGrid , citation
 model: DiskNet
 graph_path: data/citation/clean_edges.csv # Citation network
 dynamics: CitationNetwork # HindmarshRose, FitzHughNagumo, CoupledRossler
