@@ -50,7 +50,7 @@ horizon: 1
 train_ratio: 0.6
 val_ratio: 0.2
 test_ratio: 0.2
-batch_size: 4
+batch_size: 1
 
 
 # HindmarshRose
