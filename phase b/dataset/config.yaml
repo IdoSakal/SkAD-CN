@@ -101,6 +101,6 @@ CoupledRossler:
 
   # Citation Network
 CitationNetwork:
-  dim: 4
+  dim: 3
   total_t: 21
   dt: 1.0
